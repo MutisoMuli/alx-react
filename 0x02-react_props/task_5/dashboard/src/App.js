@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
+import pato from './pato.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={pato} className="App-logo" alt="pato" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -14,8 +15,13 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
+          style={{
+            color: 'red',
+            fontWeight: 'bold',
+            fontSize: '48px'
+          }}
         >
-          Learn React
+          Mutiso the Hacker
         </a>
       </header>
     </div>
